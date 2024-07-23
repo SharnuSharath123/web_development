@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="Enter todo...">
+            <button type="submit">Add Todo</button>
+        </form>
+        <ul id="todoList">
+            <!-- Todos will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>
